@@ -33,7 +33,7 @@ export default function ServiceSection() {
           </p>
         </div>
       </div>
-      <section className="grid md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-10 p-10 m-auto cursor-pointer">
+      <section className="grid md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-10 pt-10 pb-10 m-auto cursor-pointer">
         {serviceItems.map((i) => (
           <Link to={`/services/${i.name}`} key={i.id}>
             <Card theme={customTheme} className="w-full max-w-xs" imgAlt="Meaningful alt text for an image that is not purely decorative" imgSrc={i.src[0]}>
