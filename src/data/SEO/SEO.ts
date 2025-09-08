@@ -1,6 +1,6 @@
 export const SEOContent = {
   home: {
-    title: "Lannie Webdesign - Professionele Websites in Merksem | Antwerpen",
+    title: "Xyzcoaching",
     description: "Professioneel webdesign bureau in Merksem. Wij creëren moderne, responsieve websites en vernieuwen verouderde sites. Contacteer ons vandaag!",
     keywords: "webdesign Merksem, website laten maken Merksem, webdesign bureau Merksem, professionele website, responsive webdesign, SEO-vriendelijke website, webdesign Antwerpen",
     canonicalUrl: "https://www.lannie.be",
