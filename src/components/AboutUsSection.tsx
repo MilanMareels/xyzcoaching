@@ -48,7 +48,7 @@ export default function AboutUsSection() {
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <div className="h-48 bg-gray-200 rounded-lg overflow-hidden">
-                <img src="/about-4.HEIC" alt="Coach zwemtraining" loading="lazy" className="w-full h-full object-cover object-top" />
+                <img src="/about-4.jpg" alt="Coach zwemtraining" loading="lazy" className="w-full h-full object-cover object-top" />
               </div>
               <div className="h-46 bg-gray-200 rounded-lg overflow-hidden">
                 <img src="/about-3.jpg" alt="Coach Yeray Luxem" loading="lazy" className="w-full h-full object-cover object-top" />

@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /oplossingen/
+Disallow: /privacy  # Legal page doesn't need crawling
+
+# Security protections (generic)
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /private/
+
+Sitemap: https://www.xyzcoaching.be/sitemap.xml
