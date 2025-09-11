@@ -8,7 +8,7 @@ export default function FooterSection() {
       <div className="w-full">
         <div className="grid w-full justify-center sm:flex sm:justify-between md:grid-cols-1">
           <div className="text-center">
-            <Footer.Brand href="https://flowbite.com" src="https://flowbite.com/docs/images/logo.svg" alt="Logo" name={companyName} />
+            <Footer.Brand href="#" src="" name={companyName} />
           </div>
           <div className="grid grid-cols-3 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
@@ -34,12 +34,10 @@ export default function FooterSection() {
         </div>
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between text-center sm:text-left">
-          <Footer.Copyright href="#" by="Lannie" year={new Date().getFullYear()} />
+          <Footer.Copyright href="https://www.lannie.be" by="XYZCoaching. Ontworpen en ontwikkeld door Lannie" year={new Date().getFullYear()} />
           <div className="mt-4 flex justify-center space-x-6 sm:mt-0">
             <Footer.Icon href="#" icon={BsFacebook} />
             <Footer.Icon href="#" icon={BsInstagram} />
-            <Footer.Icon href="#" icon={BsTwitter} />
-            <Footer.Icon href="#" icon={BsYoutube} />
           </div>
         </div>
       </div>

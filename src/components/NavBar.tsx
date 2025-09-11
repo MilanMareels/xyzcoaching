@@ -5,6 +5,7 @@ export default function NavBarSection() {
   const companyName: string = import.meta.env.VITE_COMPANY_NAME!;
 
   const customTheme: CustomFlowbiteTheme["navbar"] = {
+    root: { base: "bg-white px-2 py-2.5 sm:px-4" },
     link: {
       base: "block py-2 pl-3 pr-4 md:p-0",
       active: {
