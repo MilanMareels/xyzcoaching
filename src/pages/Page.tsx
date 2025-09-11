@@ -15,7 +15,6 @@ export default function Page() {
     <main>
       <SEO {...SEOContent.home} />
       <Header />
-      <ContactButton />
       <ServiceSection />
       <AboutUsSection />
       <ContactForm />

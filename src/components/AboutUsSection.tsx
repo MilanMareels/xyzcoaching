@@ -24,10 +24,10 @@ export default function AboutUsSection() {
               </p>
 
               <h3 className="text-2xl font-semibold text-gray-800">Mijn aanpak</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed text-justify">
                 Voor mij draait coaching niet alleen om schema’s en trainingen, maar om plezier, vertrouwen en samen beleven. Ik geloof dat je alleen écht kan groeien als je met goesting traint.
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed text-justify">
                 Je vindt me daarom niet vaak aan de kant van het veld als coach: ik loop, zwem of fiets net zo goed mee. Zo voel ik wat jij voelt, en kan ik je van dichtbij inspireren en uitdagen. Ik
                 hou van variatie, van sporten in de natuur, van het spelen met omstandigheden en trainingshulpmiddelen.
               </p>

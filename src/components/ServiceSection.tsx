@@ -23,13 +23,13 @@ export default function ServiceSection() {
   };
 
   return (
-    <section className="flex justify-center items-center flex-col bg-gray-100" id="services">
+    <section className="flex justify-center items-center flex-col bg-gray-100" id="coaching">
       <div className="pt-10 flex justify-center items-center flex-col gap-5">
-        <h1 className="font-semibold text-3xl">Services</h1>
+        <h1 className="font-semibold text-3xl">Coaching</h1>
         <div className="max-w-[700px] m-auto text-center p-5">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ab, similique reprehenderit atque aliquam impedit fuga libero quos vel voluptatem nemo inventore, numquam tempore eum
-            ad ut dolorum deleniti quia.
+            Tijdens mijn studies ontdekte ik hoe waardevol het is om kennis en ervaring te delen. Sindsdien begeleid ik sporters van alle niveaus: van een eerste 5 km tot kwalificatie voor EK’s en
+            WK’s.
           </p>
         </div>
       </div>

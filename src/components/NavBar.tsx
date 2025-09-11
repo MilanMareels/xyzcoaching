@@ -1,4 +1,5 @@
 import { Button, CustomFlowbiteTheme, Navbar } from "flowbite-react";
+import { PopupButton } from "react-calendly";
 
 export default function NavBarSection() {
   const companyName: string = import.meta.env.VITE_COMPANY_NAME!;
@@ -23,14 +24,15 @@ export default function NavBarSection() {
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">{companyName}</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button>Gratis Intake Gesprek</Button>
+        <PopupButton url="https://calendly.com/yeray_luxem/30min" rootElement={document.getElementById("root")} text="Gratis Intake Gesprek" className="bg-blue-500 rounded-md p-2 text-white" />
+
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
         <Navbar.Link href="/" className="text-lg">
           Home
         </Navbar.Link>
-        <Navbar.Link href="/#services" className="text-lg">
+        <Navbar.Link href="/#coaching" className="text-lg">
           Coaching
         </Navbar.Link>
         <Navbar.Link href="/#about" className="text-lg">
