@@ -44,20 +44,28 @@ const SEO = ({ description, keywords, title, canonicalUrl, ogTitle, ogDescriptio
       </Helmet>
 
       {/* Structured Data - Bedrijfsinformatie */}
-
       <JsonLd<LocalBusiness>
         item={{
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "Lannie",
-          description: "Professioneel webdesign en websiteontwikkeling in Merksem.",
-          telephone: "+32 489 50 36 61",
-          email: "lanniewebdesign@gmail.com",
-          url: "https://www.lannie.be",
+          name: "Xyzcoaching - Yeray Luxem",
+          description: "Persoonlijke sportcoaching in Ekeren door Yeray Luxem. Specialist in triatlon, trailrunning, zwemmen, mountainbike en looptechniek.",
+          telephone: "+32 471 33 01 82", //
+          email: "yeray_luxem@hotmail.com",
+          url: "https://www.xyzcoaching.be",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Ekeren",
+            addressRegion: "Antwerpen",
+            addressCountry: "BE",
+          },
           areaServed: {
             "@type": "Place",
-            name: "Merksem, Antwerpen",
+            name: "Ekeren, Antwerpen",
           },
+          sameAs: [
+            "", // <-- social links als ik ze hebt
+          ],
         }}
       />
 
@@ -66,14 +74,20 @@ const SEO = ({ description, keywords, title, canonicalUrl, ogTitle, ogDescriptio
         item={{
           "@context": "https://schema.org",
           "@type": "Service",
-          name: "Webdesign & Websiteontwikkeling",
-          description: "Wij bouwen snelle, gebruiksvriendelijke en professionele websites.",
+          name: "Sportcoaching & Personal Training",
+          description: "Coaching en trainingsschema’s voor triatlon, trailrunning, zwemmen, mountainbike en looptechniek. Voor beginners, recreanten en topsporters.",
           provider: {
             "@type": "LocalBusiness",
-            name: "Lannie",
+            name: "Xyzcoaching - Yeray Luxem",
           },
-          serviceType: "Website Development",
-          areaServed: "Merksem, Antwerpen",
+          serviceType: "Personal Sport Coaching",
+          areaServed: "Ekeren, Antwerpen",
+          offers: {
+            "@type": "Offer",
+            priceCurrency: "EUR",
+            price: "125",
+            description: "Trainingsschema’s + coaching vanaf €125/maand",
+          },
         }}
       />
 
@@ -82,12 +96,12 @@ const SEO = ({ description, keywords, title, canonicalUrl, ogTitle, ogDescriptio
         item={{
           "@context": "https://schema.org",
           "@type": "ContactPoint",
-          name: "Lannie",
-          contactType: "sales",
-          description: "Neem contact op voor een gratis offerte of een vrijblijvend informatief gesprek over webdesign en websiteontwikkeling.",
-          telephone: "+32 489 50 36 61",
-          email: "lanniewebdesign@gmail.com",
-          areaServed: "Merksem, Antwerpen",
+          name: "Xyzcoaching - Yeray Luxem",
+          contactType: "customer support",
+          description: "Neem contact op voor sportcoaching, personal training of een intakegesprek in Ekeren.",
+          telephone: "+32 471 33 01 82",
+          email: "yeray_luxem@hotmail.com",
+          areaServed: "Ekeren, Antwerpen",
           availableLanguage: ["Dutch", "English"],
         }}
       />

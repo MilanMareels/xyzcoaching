@@ -4,10 +4,10 @@ export default function PrivacyPage() {
   return (
     <div>
       <Helmet>
-        <title>Privacy- en cookiebeleid Lannie Webdesign</title>
-        <meta name="description" content="Onze privacyverklaring voor webdesign diensten in Merksem. GDPR-compliant en transparant." />
+        <title>Privacy- en cookiebeleid | Xyzcoaching</title>
+        <meta name="description" content="Onze privacyverklaring voor Xyzcoaching diensten in Ekeren. GDPR-compliant en transparant." />
         <meta name="robots" content="noindex, follow" />
-        <link rel="canonical" href="https://www.lannie.be/privacy" />
+        <link rel="canonical" href="https://www.xyzcoaching/privacy" />
       </Helmet>
 
       <div className="bg-gray-100 flex items-center justify-center py-8 px-4">
