@@ -34,13 +34,13 @@ const SEO = ({ description, keywords, title, canonicalUrl, ogTitle, ogDescriptio
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content={ogType} />
         <meta property="og:locale" content="nl_BE" />
-        <meta property="og:site_name" content="Lannie Webdesign" />
+        <meta property="og:site_name" content="Xyzcoaching" />
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={twitterTitle} />
         <meta name="twitter:description" content={twitterDescription} />
         <meta name="twitter:image" content={twitterImage} />
-        <meta name="twitter:site" content="LannieWebdesign" />
+        <meta name="twitter:site" content="Xyzcoaching" />
       </Helmet>
 
       {/* Structured Data - Bedrijfsinformatie */}
