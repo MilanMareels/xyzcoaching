@@ -101,7 +101,7 @@ export default function ServiceDetails() {
         <HR />
 
         {/* Pakketten / Prijzen */}
-        <section className="w-full pl-4">
+        <section className="w-full pl-4 pr-4">
           <h2 className="text-xl font-bold">Tarieven & Pakketten</h2>
           <ul className="mt-2 space-y-2">
             {service.packages.map((pack, index) => (
