@@ -175,4 +175,66 @@ export const serviceItems = [
     SEODescription: "Overzicht van tarieven en pakketten voor personal coaching. Losse sessies en lespakketten voor zwemmen, lopen, trailrunning en MTB.",
     keywords: "personal training prijs, coaching pakketten, sportcoaching tarieven, training Ekeren",
   },
+  {
+    id: 7,
+    name: "coaching-pakketten",
+    src: ["https://dummyimage.com/600x400/007/fff&text=Coaching+Pakketten", "https://flowbite.com/docs/images/carousel/carousel-1.svg", "https://flowbite.com/docs/images/carousel/carousel-2.svg"],
+    title: "Coaching Pakketten",
+    description: "Kies het traject dat bij jouw doelen past – van recreatief sporten tot doorgedreven prestaties.",
+    longDescription:
+      "Of je nu sport voor je plezier of het beste uit jezelf wil halen in competitie: er is altijd een traject dat bij jouw doelen past. Alle pakketten zijn volledig afgestemd op jouw niveau, ambities en leefstijl.",
+    forWho: [
+      "Recreanten die fitter willen worden of met plezier willen bewegen",
+      "Ambitieuze sporters die zich voorbereiden op wedstrijden",
+      "Doorgedreven competitiesporters die intensieve begeleiding wensen",
+    ],
+    themes: [
+      "Op maat gemaakte trainingsschema’s",
+      "Wekelijkse aanpassingen op basis van je vooruitgang en planning",
+      "Persoonlijke contactmomenten voor vragen, feedback en coaching",
+      "Pacing- en fuelingstrategieën om optimaal te presteren",
+      "Wedstrijdanalyses en performance-advies voor continue progressie",
+    ],
+    locations: ["Online coaching", "Op locatie in overleg"],
+    packages: [
+      {
+        name: "Coaching Recreant",
+        description: "Voor iedereen die sport om fitter te worden, een uitdaging wil aangaan of met plezier wil bewegen.",
+        features: ["Op maat gemaakte trainingsschema’s", "Wekelijkse aanpassingen op basis van je vooruitgang", "Persoonlijke contactmomenten voor vragen, feedback en motivatie"],
+        price: "Vanaf €125/maand",
+        cta: "Start jouw traject",
+      },
+      {
+        name: "Coaching Competitie",
+        description: "Voor ambitieuze sporters die zich voorbereiden op wedstrijden of willen toewerken naar topprestaties.",
+        features: [
+          "Op maat gemaakte trainingsschema’s",
+          "Wekelijkse aanpassingen op prestaties en planning",
+          "Persoonlijke contactmomenten voor coaching en opvolging",
+          "Pacing- en fuelingstrategieën",
+          "Wedstrijdanalyses om telkens sterker terug te keren",
+        ],
+        price: "Vanaf €175/maand",
+        cta: "Kies voor competitiecoaching",
+      },
+      {
+        name: "Coaching Performance+",
+        description: "Voor de doorgedreven competitiesporter die maximale vooruitgang wil met intensieve begeleiding.",
+        features: [
+          "Op maat gemaakte trainingsschema’s",
+          "Wekelijkse aanpassingen met snelle feedbackloops",
+          "Frequente contactmomenten (digitaal of persoonlijk)",
+          "Uitgebreid performance-advies: techniek, strategie, mentale voorbereiding",
+          "Pacing- en fuelingstrategieën op maat",
+          "Diepgaande wedstrijdanalyses voor continue bijsturing",
+        ],
+        price: "Vanaf €225/maand",
+        cta: "Ga voor Performance+",
+      },
+    ],
+    price: null,
+    SEODescription:
+      "Kies uit Coaching Pakketten op maat: Recreant, Competitie of Performance+. Voor recreatieve sporters, wedstrijdatleten en topcompetitiesporters die hun prestaties willen verbeteren.",
+    keywords: "coaching pakketten, sport coaching, recreant, competitie, performance+, persoonlijke begeleiding",
+  },
 ];
