@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Allow: /oplossingen/
+Allow: /coaching/
 Disallow: /privacy  # Legal page doesn't need crawling
 
 # Security protections (generic)
