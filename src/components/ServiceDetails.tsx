@@ -5,16 +5,14 @@ import { serviceItems } from "../data/serviceItems";
 import { useEffect } from "react";
 import SEO from "./SEO/SEO";
 import { SEOContent } from "../data/SEO/SEO";
+import CalandyButton from "./ui/CalandyButton";
 
 export default function ServiceDetails() {
   const { name } = useParams();
   const service = serviceItems.find((item) => item.name === name)!;
 
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
 
   return (
@@ -38,33 +36,36 @@ export default function ServiceDetails() {
         <HR />
 
         {/* Carousel */}
-        <section className="h-64 sm:h-64 xl:h-80 2xl:h-[600px]">
-          <Carousel slideInterval={3000}>
-            {service.src.map((src, index) => (
-              <img key={index} src={src} alt={`${service.title} afbeelding ${index + 1}`} loading="lazy" />
-            ))}
-          </Carousel>
-        </section>
-
-        <HR />
-
-        {/* Lange omschrijving */}
-        {service.longDescription && (
-          <section className="w-full pl-4">
-            <h2 className="text-xl font-bold">Over deze dienst</h2>
-            <p className="mt-2 mr-4">{service.longDescription}</p>
+        {service.src && (
+          <section className="h-64 sm:h-64 xl:h-80 2xl:h-[600px]">
+            <Carousel slideInterval={3000}>
+              {service.src.map((src, index) => (
+                <img key={index} src={src} alt={`${service.title} afbeelding ${index + 1}`} loading="lazy" />
+              ))}
+            </Carousel>
           </section>
         )}
 
         <HR />
 
-        {/* Voor wie */}
-        {service.forWho && (
+        {/* Algemene uitleg */}
+        {service.longDescription && (
+          <section className="w-full pl-4">
+            <h2 className="text-xl font-bold">Wat is {service.title}?</h2>
+            <p className="mt-2 mr-4 whitespace-pre-line mb-4">{service.longDescription}</p>
+            <CalandyButton />
+          </section>
+        )}
+
+        <HR />
+
+        {/* Voor wie algemeen */}
+        {service.forWhoGeneral && (
           <section className="w-full pl-4">
             <h2 className="text-xl font-bold">Voor wie?</h2>
             <ul className="list-disc list-inside mt-2 space-y-1">
-              {service.forWho.map((item, index) => (
-                <li key={index}>{item}</li>
+              {service.forWhoGeneral.map((item, idx) => (
+                <li key={idx}>{item}</li>
               ))}
             </ul>
           </section>
@@ -72,40 +73,36 @@ export default function ServiceDetails() {
 
         <HR />
 
-        {/* Thema’s */}
-        {service.themes && (
+        {/* Hoe werkt het */}
+        {service.howItWorks && (
           <section className="w-full pl-4">
-            <h2 className="text-xl font-bold">Wat leer je?</h2>
-            <ul className="list-disc list-inside mt-2 space-y-1">
-              {service.themes.map((theme, index) => (
-                <li key={index}>{theme}</li>
-              ))}
-            </ul>
+            <h2 className="text-xl font-bold">Hoe werkt het?</h2>
+            <p className="mt-2 mr-4 whitespace-pre-line">{service.howItWorks}</p>
           </section>
         )}
 
         <HR />
 
-        {/* Locaties */}
-        {service.locations && (
+        {/* Sporten */}
+        {service.sports && (
           <section className="w-full pl-4">
-            <h2 className="text-xl font-bold">Locaties</h2>
+            <h2 className="text-xl font-bold">In welke sporten kan je coaching krijgen?</h2>
             <ul className="list-disc list-inside mt-2 space-y-1">
-              {service.locations.map((loc, index) => (
-                <li key={index}>{loc}</li>
+              {service.sports.map((sport, idx) => (
+                <li key={idx}>{sport}</li>
               ))}
             </ul>
           </section>
         )}
 
-        <HR />
+        {service.sports && <HR />}
 
         {/* Pakketten / Prijzen */}
         <section className="w-full pl-4 pr-4">
           <h2 className="text-xl font-bold">Tarieven & Pakketten</h2>
           <ul className="mt-2 space-y-2">
-            {service.packages.map((pack, index) => (
-              <li key={index} className="flex justify-between border-b pb-1">
+            {service.packages.map((pack, idx) => (
+              <li key={idx} className="flex justify-between border-b pb-1">
                 <span>{pack.name}</span>
                 <span className="font-semibold">{pack.price}</span>
               </li>
