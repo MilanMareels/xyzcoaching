@@ -2,11 +2,24 @@ import { useState } from "react";
 import Swal from "sweetalert2";
 
 export default function ContactForm() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
   const [accept, setAccept] = useState<boolean>(false);
 
   const subject: string = "New message from customer";
   const companyName: string = import.meta.env.VITE_COMPANY_NAME!;
   const contactFormKey: string = import.meta.env.VITE_CONTACT_FORM_KEY!;
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
 
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -21,16 +34,18 @@ export default function ContactForm() {
       return;
     }
 
-    const formData = new FormData(event.currentTarget);
-
-    formData.append("access_key", contactFormKey);
-    formData.append("subject", subject);
-    formData.append("from_name", companyName);
+    const sendData = new FormData();
+    sendData.append("access_key", contactFormKey);
+    sendData.append("subject", subject);
+    sendData.append("from_name", companyName);
+    sendData.append("name", formData.name);
+    sendData.append("email", formData.email);
+    sendData.append("message", formData.message);
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        body: formData,
+        body: sendData,
       });
 
       const data = await response.json();
@@ -42,7 +57,13 @@ export default function ContactForm() {
           icon: "success",
           confirmButtonColor: "#3f83f8",
         });
-        event.currentTarget.reset();
+
+        // Reset form en state
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        });
         setAccept(false);
       } else {
         Swal.fire({
@@ -73,14 +94,30 @@ export default function ContactForm() {
           <label htmlFor="user_name" className="block text-gray-700 font-semibold mb-2">
             Naam
           </label>
-          <input type="text" name="name" className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Uw naam" required />
+          <input
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleInputChange}
+            className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+            placeholder="Uw naam"
+            required
+          />
         </div>
 
         <div>
           <label htmlFor="user_email" className="block text-gray-700 font-semibold mb-2">
             Email
           </label>
-          <input type="email" name="email" id="user_email" className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Uw email" required />
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleInputChange}
+            className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+            placeholder="Uw email"
+            required
+          />
         </div>
 
         <div>
@@ -89,6 +126,8 @@ export default function ContactForm() {
           </label>
           <textarea
             name="message"
+            value={formData.message}
+            onChange={handleInputChange}
             className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
             rows={4}
             placeholder="Vertel me over je doelen en ervaringen..."
