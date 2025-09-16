@@ -20,7 +20,7 @@ export default function ServiceDetails() {
     <>
       <SEO
         {...SEOContent.serviceDetails}
-        title={`${service.title} - Coaching`}
+        title={`${service.titleSEO}`}
         canonicalUrl={`https://www.xyzcoaching.be/coaching/${service.name}`}
         description={service.SEODescription}
         keywords={service.keywords}

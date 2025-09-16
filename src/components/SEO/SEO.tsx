@@ -34,13 +34,13 @@ const SEO = ({ description, keywords, title, canonicalUrl, ogTitle, ogDescriptio
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content={ogType} />
         <meta property="og:locale" content="nl_BE" />
-        <meta property="og:site_name" content="Xyzcoaching" />
+        <meta property="og:site_name" content="https://www.xyzcoaching.be" />
         {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="/logo.png" />
         <meta name="twitter:title" content={twitterTitle} />
         <meta name="twitter:description" content={twitterDescription} />
         <meta name="twitter:image" content={twitterImage} />
-        <meta name="twitter:site" content="Xyzcoaching" />
+        <meta name="twitter:site" content="https://www.xyzcoaching.be" />
       </Helmet>
 
       {/* Structured Data - Bedrijfsinformatie */}
@@ -49,8 +49,8 @@ const SEO = ({ description, keywords, title, canonicalUrl, ogTitle, ogDescriptio
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           name: "Xyzcoaching - Yeray Luxem",
-          description: "Persoonlijke sportcoaching in Ekeren door Yeray Luxem. Specialist in triatlon, trailrunning, zwemmen, mountainbike en looptechniek.",
-          telephone: "+32 471 33 01 82", //
+          description: "Persoonlijke sportcoaching in Ekeren, Berchem, Antwerpen en Merksem door Yeray Luxem. Specialist in triatlon, trailrunning, zwemmen, mountainbike en looptechniek.",
+          telephone: "+32 471 33 01 82",
           email: "yeray_luxem@hotmail.com",
           url: "https://www.xyzcoaching.be",
           address: {
@@ -59,12 +59,14 @@ const SEO = ({ description, keywords, title, canonicalUrl, ogTitle, ogDescriptio
             addressRegion: "Antwerpen",
             addressCountry: "BE",
           },
-          areaServed: {
-            "@type": "Place",
-            name: "Ekeren, Antwerpen",
-          },
+          areaServed: [
+            { "@type": "Place", name: "Ekeren" },
+            { "@type": "Place", name: "Berchem" },
+            { "@type": "Place", name: "Antwerpen" },
+            { "@type": "Place", name: "Merksem" },
+          ],
           sameAs: [
-            "", // <-- social links als ik ze hebt
+            // hier later social links toevoegen
           ],
         }}
       />
@@ -74,19 +76,24 @@ const SEO = ({ description, keywords, title, canonicalUrl, ogTitle, ogDescriptio
         item={{
           "@context": "https://schema.org",
           "@type": "Service",
-          name: "Sportcoaching & Personal Training",
-          description: "Coaching en trainingsschema’s voor triatlon, trailrunning, zwemmen, mountainbike en looptechniek. Voor beginners, recreanten en topsporters.",
+          name: "Sportcoaching en Persoonlijke Trainingsschema’s",
+          description: "Coaching en persoonlijke trainingsschema’s voor triatlon, trailrunning, zwemmen, mountainbike en looptechniek. Voor beginners, recreanten en topsporters.",
           provider: {
             "@type": "LocalBusiness",
             name: "Xyzcoaching - Yeray Luxem",
           },
-          serviceType: "Personal Sport Coaching",
-          areaServed: "Ekeren, Antwerpen",
+          serviceType: "Personal Sport Coaching & Trainingsschema’s",
+          areaServed: [
+            { "@type": "Place", name: "Ekeren" },
+            { "@type": "Place", name: "Berchem" },
+            { "@type": "Place", name: "Antwerpen" },
+            { "@type": "Place", name: "Merksem" },
+          ],
           offers: {
             "@type": "Offer",
             priceCurrency: "EUR",
-            price: "125",
-            description: "Trainingsschema’s + coaching vanaf €125/maand",
+            price: "50",
+            description: "Coaching vanaf €50/u",
           },
         }}
       />
@@ -98,10 +105,15 @@ const SEO = ({ description, keywords, title, canonicalUrl, ogTitle, ogDescriptio
           "@type": "ContactPoint",
           name: "Xyzcoaching - Yeray Luxem",
           contactType: "customer support",
-          description: "Neem contact op voor sportcoaching, personal training of een intakegesprek in Ekeren.",
+          description: "Neem contact op voor sportcoaching, personal training of een intakegesprek in Ekeren, Berchem, Antwerpen of Merksem.",
           telephone: "+32 471 33 01 82",
           email: "yeray_luxem@hotmail.com",
-          areaServed: "Ekeren, Antwerpen",
+          areaServed: [
+            { "@type": "Place", name: "Ekeren" },
+            { "@type": "Place", name: "Berchem" },
+            { "@type": "Place", name: "Antwerpen" },
+            { "@type": "Place", name: "Merksem" },
+          ],
           availableLanguage: ["Dutch", "English"],
         }}
       />
