@@ -2,12 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.xyzcoaching.be/</loc>
-    <lastmod>2025-02-25T14:36:48+00:00</lastmod>
+    <lastmod>2025-09-11T14:36:48+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.xyzcoaching.be/privacy</loc>
+    <loc>https://www.xyzcoaching.be/coaching/persoonlijke-trainingsschema</loc>
     <lastmod>2025-02-25T14:36:48+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xyzcoaching.be/coaching/personal-coaching</loc>
+    <lastmod>2025-09-16T14:36:48+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.xyzcoaching.be/privacy</loc>
+    <lastmod>2025-09-16T14:36:48+00:00</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>

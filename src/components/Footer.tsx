@@ -1,5 +1,4 @@
 import { Footer } from "flowbite-react";
-import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
 
 export default function FooterSection() {
   const companyName: string = import.meta.env.VITE_COMPANY_NAME!;
@@ -10,20 +9,14 @@ export default function FooterSection() {
           <div className="text-center">
             <Footer.Brand href="#" src="" name={companyName} />
           </div>
-          <div className="grid grid-cols-3 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
+          <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-2 sm:gap-6">
             <div>
               <Footer.Title title="about" />
               <Footer.LinkGroup col>
                 <Footer.Link href="/#about">{companyName}</Footer.Link>
               </Footer.LinkGroup>
             </div>
-            <div>
-              <Footer.Title title="Follow us" />
-              <Footer.LinkGroup col>
-                <Footer.Link href="#">Facebook</Footer.Link>
-                <Footer.Link href="#">Instagram</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
+
             <div>
               <Footer.Title title="Legal" />
               <Footer.LinkGroup col>
@@ -35,10 +28,7 @@ export default function FooterSection() {
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between text-center sm:text-left">
           <Footer.Copyright href="https://www.lannie.be" by="XYZCoaching. Ontworpen en ontwikkeld door Lannie" year={new Date().getFullYear()} />
-          <div className="mt-4 flex justify-center space-x-6 sm:mt-0">
-            <Footer.Icon href="#" icon={BsFacebook} />
-            <Footer.Icon href="#" icon={BsInstagram} />
-          </div>
+          <div className="mt-4 flex justify-center space-x-6 sm:mt-0"></div>
         </div>
       </div>
     </Footer>
