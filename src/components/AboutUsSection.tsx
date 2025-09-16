@@ -16,7 +16,7 @@ export default function AboutUsSection() {
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-gray-800">Mijn sportcarrière</h3>
               <p className="text-gray-600 leading-relaxed">
-                <ul>
+                <ul className="list-disc ml-4">
                   <li>4x Belgisch kampioen cross triatlon</li>
                   <li>1e plaatsen op XTERRA World Cups in België, Luxemburg, Cyprus en Polen</li>
                   <li>Meerdere top 10-noteringen op wereldkampioenschappen</li>
@@ -36,11 +36,19 @@ export default function AboutUsSection() {
             <div className="grid grid-cols-2 gap-4 mt-6">
               <div className="bg-white p-4 rounded-lg shadow-md">
                 <div className="text-blue-500 text-2xl font-bold">60+</div>
-                <div className="text-gray-600">Internationale wedstrijden in triatlon</div>
+                <div className="text-gray-600">Internationale wedstrijdervaringen</div>
               </div>
               <div className="bg-white p-4 rounded-lg shadow-md">
-                <div className="text-blue-500 text-2xl font-bold">3+</div>
+                <div className="text-blue-500 text-2xl font-bold">20+</div>
                 <div className="text-gray-600">Jaar coaching ervaring</div>
+              </div>
+              <div className="bg-white p-4 rounded-lg shadow-md">
+                <div className="text-blue-500 text-2xl font-bold">25+</div>
+                <div className="text-gray-600">Atleten begeleidt</div>
+              </div>
+              <div className="bg-white p-4 rounded-lg shadow-md">
+                <div className="text-blue-500 text-2xl font-bold">Plus</div>
+                <div className="text-gray-600">Ervaring van jeugd tot master en van start2 tot internationale selecties</div>
               </div>
             </div>
           </div>

@@ -20,6 +20,7 @@ export const serviceItems = [
       { name: "10 lessen", price: "€480" },
     ],
     sports: ["Open-Water Zwemmen", "Zwemtechniek Verfijning", "Mountainbike (MTB)", "Trailrunning", "Looptechniek", "Wisseltrainingen (Transitions)"],
+    sportSrc: ["/open-water.jpg", "/zwembad.jpg", "/mtb.JPG", "/trailrunning.jpg", "/looptechniek.jpg", "/wissel.jpg"],
     SEODescription: "Personal Coaching: individuele begeleiding in zwemmen, MTB, trailrunning, looptechniek en triatlon wissels. Voor beginners en gevorderden.",
     keywords: "personal coaching, zwemtraining, mountainbike coaching, trailrunning, looptechniek, triatlon coaching",
   },
@@ -71,7 +72,8 @@ export const serviceItems = [
       },
     ],
 
-    sports: ["Lopen", "(Open-Water) Zwemmen", "Mountainbike (MTB)", "Trailrunning", "Triatlon"],
+    sports: ["(Open-Water) Zwemmen", "Lopen", "Mountainbike (MTB)", "Trailrunning", "Triatlon"],
+    sportSrc: ["/open-water.jpg", "/looptechniek.jpg", "/mtb.JPG", "/trailrunning.jpg", "/wissel.jpg"],
     locations: ["Op afstand (digitaal)", "Online coaching gesprekken"],
     SEODescription: "Persoonlijke trainingsschema’s op afstand. Individuele coaching met digitale opvolging, schema’s en online gesprekken.",
     keywords: "trainingsschema op maat, online coaching, triatlon schema, looptraining, mountainbike schema",

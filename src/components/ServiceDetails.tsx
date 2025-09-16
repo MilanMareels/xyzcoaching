@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import SEO from "./SEO/SEO";
 import { SEOContent } from "../data/SEO/SEO";
 import CalandyButton from "./ui/CalandyButton";
+import SportCard from "./ui/SportCard";
 
 export default function ServiceDetails() {
   const { name } = useParams();
@@ -85,17 +86,18 @@ export default function ServiceDetails() {
 
         {/* Sporten */}
         {service.sports && (
-          <section className="w-full pl-4">
-            <h2 className="text-xl font-bold">In welke sporten kan je coaching krijgen?</h2>
-            <ul className="list-disc list-inside mt-2 space-y-1">
-              {service.sports.map((sport, idx) => (
-                <li key={idx}>{sport}</li>
-              ))}
-            </ul>
+          <section className="px-4">
+            <h2 className="text-xl font-bold mb-4">In welke sporten kan je coaching krijgen?</h2>
+            <section className="w-full">
+              <section className="flex flex-wrap justify-center sm:justify-start gap-4">
+                {service.sports.map((sport, inx) => (
+                  <SportCard key={inx} sportSrc={service.sportSrc[inx]} title={sport} />
+                ))}
+              </section>
+            </section>
           </section>
         )}
-
-        {service.sports && <HR />}
+        <HR />
 
         {/* Pakketten / Prijzen */}
         <section className="w-full pl-4 pr-4">
@@ -111,9 +113,6 @@ export default function ServiceDetails() {
         </section>
 
         <HR />
-
-        {/* Contactformulier */}
-        <ContactForm />
       </div>
     </>
   );
