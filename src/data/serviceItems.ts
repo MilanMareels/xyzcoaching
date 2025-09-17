@@ -10,7 +10,11 @@ export const serviceItems = [
       "Elke sporter is uniek. Daarom verdien jij een aanpak die past bij jouw niveau, doelen en mogelijkheden. Of je nu net begint of naar een topprestatie toewerkt: samen zetten we stappen vooruit.",
     longDescription:
       "Ik sta niet aan de zijlijn, maar train mee in het water, op de fiets of op het parcours. Coaching van dichtbij, met passie en praktijkervaring.\n\n Interesse? Plan je eerste sessie of pakket.",
-    forWhoGeneral: ["Beginners die vertrouwen willen opbouwen", "Gevorderden die hun techniek en tactiek willen aanscherpen", "Triatleten die zich voorbereiden op wedstrijden"],
+    forWhoGeneral: [
+      "Beginners die vertrouwen willen opbouwen",
+      "Gevorderden die hun techniek en tactiek willen aanscherpen",
+      "Triatleten die zich voorbereiden op wedstrijden",
+    ],
     howItWorks:
       "We starten met een intakegesprek waarin we je doelen bespreken. Daarna trainen we samen in de praktijk: in het zwembad, open water, op de fiets of in de natuur. Je kiest losse sessies of een pakket van 5 of 10 lessen.",
     packages: [
@@ -20,9 +24,18 @@ export const serviceItems = [
       { name: "5 lessen", price: "€250" },
       { name: "10 lessen", price: "€480" },
     ],
-    sports: ["Open-Water Zwemmen", "Zwemtechniek Verfijning", "Mountainbike (MTB)", "Trailrunning", "Looptechniek", "Wisseltrainingen (Transitions)"],
-    sportSrc: ["/open-water.jpg", "/zwembad.jpg", "/mtb.JPG", "/trailrunning.jpg", "/looptechniek.jpg", "/wissel.jpg"],
-    SEODescription: "Personal coaching in Ekeren, Berchem, Antwerpen & Merksem: zwemtraining, MTB, trailrunning, looptechniek en triatlon voor elk niveau.",
+    sports: [
+      "Zwemmen",
+      "Open-Water Zwemmen",
+      "Zwemtechniek Verfijning",
+      "Mountainbike (MTB)",
+      "Trailrunning",
+      "Looptechniek",
+      "Wisseltrainingen (Transitions)",
+    ],
+    sportSrc: ["/zwemmen-2.jpg", "/open-water.jpg", "/zwembad.jpg", "/mtb.JPG", "/trailrunning.jpg", "/looptechniek.jpg", "/wissel.jpg"],
+    SEODescription:
+      "Personal coaching in Ekeren, Berchem, Antwerpen & Merksem: zwemtraining, MTB, trailrunning, looptechniek en triatlon voor elk niveau.",
     keywords:
       "personal coaching Ekeren, personal coaching Berchem, personal coaching Antwerpen, personal coaching Merksem, zwemtraining Ekeren, zwemtraining Berchem, zwemtraining Antwerpen, zwemtraining Merksem, mountainbike coaching Ekeren, mountainbike coaching Berchem, mountainbike coaching Antwerpen, mountainbike coaching Merksem, trailrunning Ekeren, trailrunning Berchem, trailrunning Antwerpen, trailrunning Merksem, looptechniek Ekeren, looptechniek Berchem, looptechniek Antwerpen, looptechniek Merksem, triatlon coaching Ekeren, triatlon coaching Berchem, triatlon coaching Antwerpen, triatlon coaching Merksem",
   },
@@ -48,7 +61,11 @@ export const serviceItems = [
       {
         name: "Coaching Recreant",
         price: "Vanaf €125/maand",
-        features: ["Op maat gemaakte trainingsschema’s", "Wekelijkse aanpassingen op basis van je vooruitgang", "Persoonlijke contactmomenten voor vragen, feedback en motivatie"],
+        features: [
+          "Op maat gemaakte trainingsschema’s",
+          "Wekelijkse aanpassingen op basis van je vooruitgang",
+          "Persoonlijke contactmomenten voor vragen, feedback en motivatie",
+        ],
       },
       {
         name: "Coaching Competitie",
@@ -75,8 +92,8 @@ export const serviceItems = [
       },
     ],
 
-    sports: ["(Open-Water) Zwemmen", "Lopen", "Mountainbike (MTB)", "Trailrunning", "Triatlon"],
-    sportSrc: ["/open-water.jpg", "/looptechniek.jpg", "/mtb.JPG", "/trailrunning.jpg", "/wissel.jpg"],
+    sports: ["Lopen", "Fietsen", "Zwemmen", "Triatlon", "Trailrunning"],
+    sportSrc: ["/looptechniek.jpg", "/mtb.JPG", "/open-water.jpg", "/wissel.jpg", "/trailrunning.jpg"],
     locations: ["Op afstand (digitaal)", "Online coaching gesprekken"],
     SEODescription: "Trainingsschema’s in Ekeren, Berchem, Antwerpen & Merksem: persoonlijke coaching met digitale opvolging en online gesprekken.",
     keywords:
