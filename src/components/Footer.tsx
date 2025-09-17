@@ -9,11 +9,21 @@ export default function FooterSection() {
           <div className="text-center">
             <Footer.Brand href="#" src="/Logo_XYZ.jpg" name={companyName} />
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-2 sm:gap-6">
+          <div className="grid grid-cols-3 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
-              <Footer.Title title="about" />
+              <Footer.Title title="Over mij" />
               <Footer.LinkGroup col>
                 <Footer.Link href="/#about">{companyName}</Footer.Link>
+              </Footer.LinkGroup>
+            </div>
+
+            <div>
+              <Footer.Title title="Partners" />
+              <Footer.LinkGroup col>
+                <Footer.Link href="/">SlowRunning</Footer.Link>
+                <Footer.Link href="https://scott-benelux.com/">Scott Benelux</Footer.Link>
+                <Footer.Link href="https://www.atriac.be/">ATRIAC</Footer.Link>
+                <Footer.Link href="https://6dsportsnutrition.com/">6Dsports Nutrition</Footer.Link>
               </Footer.LinkGroup>
             </div>
 
