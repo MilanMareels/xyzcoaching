@@ -84,7 +84,7 @@ export default function AboutUsSection() {
         <div className="mt-8 mb-6">
           <h1 className="text-4xl font-bold text-gray-800 mb-6">Wat anderen zeggen</h1>
           <p className="text-lg text-gray-600 max-w-3xl text-justify mb-6">Ontdek de ervaringen van andere sporters</p>
-          <div className="grid grid-cols-2 sm:grid-cols-1 gap-4 mt-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
             <div className="bg-white p-8 rounded-xl shadow-lg flex-1">
               <div className="flex items-start mb-6">
                 <div>
