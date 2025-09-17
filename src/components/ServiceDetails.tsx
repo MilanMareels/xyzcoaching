@@ -102,11 +102,22 @@ export default function ServiceDetails() {
         {/* Pakketten / Prijzen */}
         <section className="w-full pl-4 pr-4">
           <h2 className="text-xl font-bold">Tarieven & Pakketten</h2>
-          <ul className="mt-2 space-y-2">
+          <ul className="mt-2 space-y-4">
             {service.packages.map((pack, idx) => (
-              <li key={idx} className="flex justify-between border-b pb-1">
-                <span>{pack.name}</span>
-                <span className="font-semibold">{pack.price}</span>
+              <li key={idx} className="border-b pb-2">
+                <div className="flex justify-between">
+                  <span className="font-medium">{pack.name}</span>
+                  <span className="font-semibold">{pack.price}</span>
+                </div>
+
+                {/* Als er features bestaan, toon ze */}
+                {pack.features && (
+                  <ul className="mt-2 list-disc list-inside space-y-1 text-base text-gray-600">
+                    {pack.features.map((feature, fIdx) => (
+                      <li key={fIdx}>{feature}</li>
+                    ))}
+                  </ul>
+                )}
               </li>
             ))}
           </ul>
