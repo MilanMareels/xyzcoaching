@@ -4,17 +4,13 @@ export const serviceItems = [
     name: "personal-coaching",
     title: "Personal Coaching",
     titleSEO: "Personal Coaching in Ekeren, Berchem, Antwerpen & Merksem",
-    src: ["/c-3.jpg", "/c-4.jpg"],
+    src: ["/c-3.jpg", "/c-2.jpg", "/c-4.jpg"],
     banner: "/c-4.jpg",
     description:
       "Elke sporter is uniek. Daarom verdien jij een aanpak die past bij jouw niveau, doelen en mogelijkheden. Of je nu net begint of naar een topprestatie toewerkt: samen zetten we stappen vooruit.",
     longDescription:
       "Ik sta niet aan de zijlijn, maar train mee in het water, op de fiets of op het parcours. Coaching van dichtbij, met passie en praktijkervaring.\n\n Interesse? Plan je eerste sessie of pakket.",
-    forWhoGeneral: [
-      "Beginners die vertrouwen willen opbouwen",
-      "Gevorderden die hun techniek en tactiek willen aanscherpen",
-      "Triatleten die zich voorbereiden op wedstrijden",
-    ],
+    forWhoGeneral: ["Beginners die vertrouwen willen opbouwen", "Gevorderden die hun techniek en tactiek willen aanscherpen", "Triatleten die zich voorbereiden op wedstrijden"],
     howItWorks:
       "We starten met een intakegesprek waarin we je doelen bespreken. Daarna trainen we samen in de praktijk: in het zwembad, open water, op de fiets of in de natuur. Je kiest losse sessies of een pakket van 5 of 10 lessen.",
     packages: [
@@ -24,18 +20,9 @@ export const serviceItems = [
       { name: "5 lessen", price: "€250" },
       { name: "10 lessen", price: "€480" },
     ],
-    sports: [
-      "Zwemmen",
-      "Open-Water Zwemmen",
-      "Zwemtechniek Verfijning",
-      "Mountainbike (MTB)",
-      "Trailrunning",
-      "Looptechniek",
-      "Wisseltrainingen (Transitions)",
-    ],
+    sports: ["Zwemmen", "Open-Water Zwemmen", "Zwemtechniek Verfijning", "Mountainbike (MTB)", "Trailrunning", "Looptechniek", "Wisseltrainingen (Transitions)"],
     sportSrc: ["/zwemmen-2.jpg", "/open-water.jpg", "/zwembad.jpg", "/mtb.JPG", "/trailrunning.jpg", "/looptechniek.jpg", "/wissel.jpg"],
-    SEODescription:
-      "Personal coaching in Ekeren, Berchem, Antwerpen & Merksem: zwemtraining, MTB, trailrunning, looptechniek en triatlon voor elk niveau.",
+    SEODescription: "Personal coaching in Ekeren, Berchem, Antwerpen & Merksem: zwemtraining, MTB, trailrunning, looptechniek en triatlon voor elk niveau.",
     keywords:
       "personal coaching Ekeren, personal coaching Berchem, personal coaching Antwerpen, personal coaching Merksem, zwemtraining Ekeren, zwemtraining Berchem, zwemtraining Antwerpen, zwemtraining Merksem, mountainbike coaching Ekeren, mountainbike coaching Berchem, mountainbike coaching Antwerpen, mountainbike coaching Merksem, trailrunning Ekeren, trailrunning Berchem, trailrunning Antwerpen, trailrunning Merksem, looptechniek Ekeren, looptechniek Berchem, looptechniek Antwerpen, looptechniek Merksem, triatlon coaching Ekeren, triatlon coaching Berchem, triatlon coaching Antwerpen, triatlon coaching Merksem",
   },
@@ -44,8 +31,8 @@ export const serviceItems = [
     name: "persoonlijke-trainingsschema",
     title: "Persoonlijke Trainingsschema’s",
     titleSEO: "Persoonlijke Trainingsschema’s in Ekeren, Berchem, Antwerpen & Merksem",
-    src: ["/c-3.jpg", "/c-4.jpg"],
-    banner: "/c-3.jpg",
+    src: ["/training-schema-1.jpg", "/about-1.jpg"],
+    banner: "/training-schema-1.jpg",
     description: "Individueel trainingsprogramma op maat. Altijd afgestemd op jouw doelen, niveau en beschikbare tijd.",
     longDescription:
       "Voor we starten maken we tijd voor een intakegesprek van 20 minuten. Hier bespreken we jouw huidige aanpak, achtergrond en sportieve doelen. Dit helpt om een duidelijk beeld te krijgen van wat jij wil bereiken – of dat nu je eerste 5 km, een halve marathon, een hogere FTP, een betere klim op de mountainbike of een volledige triatlon is.\n\n Wil je jouw doelen bespreken? Plan je intakegesprek.",
@@ -61,11 +48,7 @@ export const serviceItems = [
       {
         name: "Coaching Recreant",
         price: "Vanaf €125/maand",
-        features: [
-          "Op maat gemaakte trainingsschema’s",
-          "Wekelijkse aanpassingen op basis van je vooruitgang",
-          "Persoonlijke contactmomenten voor vragen, feedback en motivatie",
-        ],
+        features: ["Op maat gemaakte trainingsschema’s", "Wekelijkse aanpassingen op basis van je vooruitgang", "Persoonlijke contactmomenten voor vragen, feedback en motivatie"],
       },
       {
         name: "Coaching Competitie",
