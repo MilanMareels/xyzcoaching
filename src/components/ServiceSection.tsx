@@ -6,8 +6,8 @@ export default function ServiceSection() {
   return (
     <section className="flex justify-center items-center flex-col bg-gray-100 p-4" id="coaching">
       <div className="pt-10 flex justify-center items-center flex-col gap-5">
-        <h1 className="font-semibold text-3xl">Coaching</h1>
-        <div className="max-w-[700px] m-auto text-center p-5">
+        <h1 className="font-semibold text-4xl">Coaching</h1>
+        <div className="max-w-[700px] m-auto text-center p-5 text-lg">
           <p>Persoonlijke coaching en trainingen die passen bij jouw doelen, niveau en leefstijl</p>
         </div>
       </div>

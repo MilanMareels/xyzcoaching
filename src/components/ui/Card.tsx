@@ -22,15 +22,7 @@ export default function Card({ title, description, sports, banner }: CardProps) 
           <ul className="text-gray-600 mb-8 space-y-2">
             {sports.map((i) => (
               <li className="flex items-center" key={i}>
-                <svg
-                  className="w-6 h-6 text-gray-800 dark:text-white"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                >
+                <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11.917 9.724 16.5 19 7.5" />
                 </svg>
                 {i}
@@ -39,9 +31,7 @@ export default function Card({ title, description, sports, banner }: CardProps) 
           </ul>
         )}
 
-        <button className="bg-blue-500 hover:bg-blue-500 text-white px-6 py-3 rounded font-semibold transition-colors cursor-pointer whitespace-nowrap mt-auto self-start">
-          Lees Meer
-        </button>
+        <button className="bg-[#DE5438] text-white px-6 py-3 rounded font-semibold transition-colors cursor-pointer whitespace-nowrap mt-auto self-start">Lees Meer</button>
       </div>
     </div>
   );
