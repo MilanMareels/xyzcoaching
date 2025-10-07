@@ -19,7 +19,7 @@ export default function CookieConsent() {
           Meer informatie.
         </Link>
       </p>
-      <Button onClick={giveCookieConsent} className="w-[150px] rounded bg-blue-500 hover:text-white">
+      <Button onClick={giveCookieConsent} className="w-[150px] rounded bg-[#DE5438] hover:text-white">
         Accepteren
       </Button>
     </div>
