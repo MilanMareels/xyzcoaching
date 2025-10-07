@@ -4,24 +4,99 @@ export const serviceItems = [
     name: "personal-coaching",
     title: "Personal Coaching",
     titleSEO: "Personal Coaching in Ekeren, Berchem, Antwerpen & Merksem",
-    src: ["/c-3.jpg", "/c-2.jpg", "/c-4.jpg"],
+    headerImage: "/about-1.jpg",
     banner: "/c-4.jpg",
+    typeTitle: "Coaching Types",
+    typeDescription: "Ontdek welk type coaching het beste bij jou past.",
     description:
       "Elke sporter is uniek. Daarom verdien jij een aanpak die past bij jouw niveau, doelen en mogelijkheden. Of je nu net begint of naar een topprestatie toewerkt: samen zetten we stappen vooruit.",
-    longDescription:
-      "Ik sta niet aan de zijlijn, maar train mee in het water, op de fiets of op het parcours. Coaching van dichtbij, met passie en praktijkervaring.\n\n Interesse? Plan je eerste sessie of pakket.",
-    forWhoGeneral: ["Beginners die vertrouwen willen opbouwen", "Gevorderden die hun techniek en tactiek willen aanscherpen", "Triatleten die zich voorbereiden op wedstrijden"],
-    howItWorks:
-      "We starten met een intakegesprek waarin we je doelen bespreken. Daarna trainen we samen in de praktijk: in het zwembad, open water, op de fiets of in de natuur. Je kiest losse sessies of een pakket van 5 of 10 lessen.",
+    howItWorks: [
+      {
+        title: "Intake Gesprek",
+        disc: "Uitgebreide bespreking van je beschikbare tijd en eventuele beperkingen.",
+      },
+      {
+        title: "Fysieke Assessment",
+        disc: "Bespreking van je huidige conditie, kracht, flexibiliteit..",
+      },
+      {
+        title: "Doelen instellen",
+        disc: "Bespreking van jou doelen en ervaringen.",
+      },
+      {
+        title: "Persoonlijke training",
+        disc: "Persoonlijke training voor de gekozen sport.",
+      },
+      {
+        title: "Evaluatie",
+        disc: "Regelmatige evaluatie van vooruitgang en aanpassing van de training voor optimale resultaten.",
+      },
+    ],
+    howItWorksDescription: "Ontdek hoe ik stap voor stap jouw perfecte coaching ontwikkel, van eerste intake tot continue begeleiding.",
+    packageDisc: "Kies het pakket dat het beste bij jouw behoeften en budget past. Alle pakketten bevatten hoogwaardige en persoonlijke coaching.",
     packages: [
-      { name: "1-op-1 coaching", price: "vanaf €55/u" },
-      { name: "1-op-2 coaching", price: "vanaf €40/u p.p." },
-      { name: "1-op-3 coaching", price: "vanaf €30/u p.p." },
-      { name: "5 lessen", price: "€250" },
-      { name: "10 lessen", price: "€480" },
+      {
+        name: "1-op-1 Coaching",
+        price: "Vanaf €55",
+        term: "Per uur",
+        mid: false,
+        features: ["Volledige persoonlijke begeleiding", "Training afgestemd op jouw doelen en niveau", , "100% focus op techniek, houding en progressie"],
+      },
+      {
+        name: "1-op-2 Coaching",
+        price: "Vanaf €40 p.p",
+        term: "Per uur",
+        mid: true,
+        features: [
+          "Train samen met een vriend(in) of partner",
+          "Persoonlijke begeleiding, maar gedeelde aandacht",
+          "Oefeningen aangepast op ieders niveau",
+          "Extra motivatie door samen te trainen",
+          "Betaalbaarder dan 1-op-1",
+        ],
+      },
+      {
+        name: "1-op-3 Coaching",
+        price: "Vanaf €30 p.p",
+        term: "Per uur",
+        mid: false,
+        features: [
+          "Kleine groep, maximaal 3 personen",
+          "Persoonlijke aandacht blijft, maar met meer groepsgevoel",
+          "Geschikt als je samen met vrienden of collega’s wilt trainen",
+          "Gezellig, motiverend en toch resultaatgericht",
+          "Meest voordelig per persoon",
+        ],
+      },
+      {
+        name: "5 Lessen",
+        price: "€250",
+        term: "Eenmalig",
+        mid: false,
+        features: [
+          "In één keer betalen voor 5 sessies",
+          "Volledige persoonlijke begeleiding",
+          "Training afgestemd op jouw doelen en niveau",
+          "100% focus op techniek, houding en progressie",
+          "Ideaal om een eerste traject te starten",
+        ],
+      },
+      {
+        name: "10 Lessen",
+        price: "€480",
+        term: "Eenmalig",
+        mid: false,
+        features: [
+          "In één keer betalen voor 10 sessies",
+          "Volledige persoonlijke begeleiding",
+          "Training afgestemd op jouw doelen en niveau",
+          "100% focus op techniek, houding en progressie",
+          "Ideaal om een eerste traject te starten",
+        ],
+      },
     ],
     sports: ["Zwemmen", "Open-Water Zwemmen", "Zwemtechniek Verfijning", "Mountainbike (MTB)", "Trailrunning", "Looptechniek", "Wisseltrainingen (Transitions)"],
-    sportSrc: ["/zwemmen-2.jpg", "/open-water.jpg", "/zwembad.jpg", "/mtb.JPG", "/trailrunning.jpg", "/looptechniek.jpg", "/wissel.jpg"],
+    sportSrc: ["/zwemmen-2.jpg", "/zwemmen-4.HEIC", "/zwembad.jpg", "/mtb.JPG", "/trailrunning.jpg", "/looptechniek.jpg", "/wissel.jpg"],
     SEODescription: "Personal coaching in Ekeren, Berchem, Antwerpen & Merksem: zwemtraining, MTB, trailrunning, looptechniek en triatlon voor elk niveau.",
     keywords:
       "personal coaching Ekeren, personal coaching Berchem, personal coaching Antwerpen, personal coaching Merksem, zwemtraining Ekeren, zwemtraining Berchem, zwemtraining Antwerpen, zwemtraining Merksem, mountainbike coaching Ekeren, mountainbike coaching Berchem, mountainbike coaching Antwerpen, mountainbike coaching Merksem, trailrunning Ekeren, trailrunning Berchem, trailrunning Antwerpen, trailrunning Merksem, looptechniek Ekeren, looptechniek Berchem, looptechniek Antwerpen, looptechniek Merksem, triatlon coaching Ekeren, triatlon coaching Berchem, triatlon coaching Antwerpen, triatlon coaching Merksem",
@@ -31,28 +106,48 @@ export const serviceItems = [
     name: "persoonlijke-trainingsschema",
     title: "Persoonlijke Trainingsschema’s",
     titleSEO: "Persoonlijke Trainingsschema’s in Ekeren, Berchem, Antwerpen & Merksem",
-    src: ["/training-schema-1.jpg", "/about-1.jpg"],
+    headerImage: "/training-schema-2.jpg",
     banner: "/training-schema-1.jpg",
+    typeTitle: "Trainingsschema Types",
+    typeDescription: "Ontdek welk type trainingsschema het beste bij jou past. Elk schema is volledig aangepast aan jouw specifieke doelen en behoeften.",
     description: "Individueel trainingsprogramma op maat. Altijd afgestemd op jouw doelen, niveau en beschikbare tijd.",
-    longDescription:
-      "Voor we starten maken we tijd voor een intakegesprek van 20 minuten. Hier bespreken we jouw huidige aanpak, achtergrond en sportieve doelen. Dit helpt om een duidelijk beeld te krijgen van wat jij wil bereiken – of dat nu je eerste 5 km, een halve marathon, een hogere FTP, een betere klim op de mountainbike of een volledige triatlon is.\n\n Wil je jouw doelen bespreken? Plan je intakegesprek.",
-    forWhoGeneral: [
-      "Lopers → van eerste 5 km tot marathon",
-      "Triatleten → voorbereiding op sprint, halve of volledige triatlon",
-      "Mountainbikers → klimkracht, uithouding en techniek",
-      "Sporters die gestructureerd willen trainen met persoonlijke opvolging",
+    howItWorks: [
+      {
+        title: "Intake Gesprek",
+        disc: "Uitgebreide bespreking van je doelen, ervaring, beschikbare tijd en eventuele beperkingen.",
+      },
+      {
+        title: "Fysieke Assessment",
+        disc: "Bespreking van je huidige conditie, kracht, flexibiliteit.",
+      },
+      {
+        title: "Schema Ontwikkeling",
+        disc: "Creatie van jouw gepersonaliseerde trainingsschema gebaseerd op wetenschappelijke principes.",
+      },
+      {
+        title: "Implementatie",
+        disc: "Begeleiding bij de eerste sessies om correcte uitvoering en begrip van het schema te waarborgen.",
+      },
+      {
+        title: "Evaluatie",
+        disc: "Regelmatige evaluatie van vooruitgang en aanpassing van het schema voor optimale resultaten.",
+      },
     ],
-    howItWorks:
-      "Na het intakegesprek krijg je een individueel trainingsplan dat digitaal wordt aangeleverd. Dit wordt regelmatig opgevolgd en aangepast. Afhankelijk van je pakket plannen we online coaching gesprekken in om voortgang te bespreken en je schema bij te sturen.",
+    howItWorksDescription: "Ontdek hoe ik stap voor stap jouw perfecte trainingsschema ontwikkel, van eerste intake tot continue begeleiding.",
+    packageDisc: "Kies het pakket dat het beste bij jouw behoeften en budget past. Alle pakketten bevatten hoogwaardige, gepersonaliseerde trainingsschema's.",
     packages: [
       {
         name: "Coaching Recreant",
-        price: "Vanaf €125/maand",
+        price: "€125",
+        term: "Per maand",
+        mid: false,
         features: ["Op maat gemaakte trainingsschema’s", "Wekelijkse aanpassingen op basis van je vooruitgang", "Persoonlijke contactmomenten voor vragen, feedback en motivatie"],
       },
       {
         name: "Coaching Competitie",
-        price: "Vanaf €175/maand",
+        price: "€175",
+        term: "Per maand",
+        mid: true,
         features: [
           "Op maat gemaakte trainingsschema’s",
           "Wekelijkse aanpassingen op basis van je prestaties en planning",
@@ -63,12 +158,14 @@ export const serviceItems = [
       },
       {
         name: "Coaching Performance+",
-        price: "Vanaf €225/maand",
+        price: "€225",
+        term: "Per maand",
+        mid: false,
         features: [
           "Op maat gemaakte trainingsschema’s",
           "Wekelijkse aanpassingen met snelle feedbackloops",
-          "Frequente contactmomenten (digitaal of persoonlijk)",
-          "Uitgebreid performance-advies (techniek, strategie, mentale voorbereiding)",
+          "Frequente contactmomenten",
+          "Uitgebreid performance-advies",
           "Pacing- en fuelingstrategieën op maat",
           "Diepgaande wedstrijdanalyses om continu bij te sturen",
         ],
@@ -76,7 +173,7 @@ export const serviceItems = [
     ],
 
     sports: ["Lopen", "Fietsen", "Zwemmen", "Triatlon", "Trailrunning"],
-    sportSrc: ["/looptechniek.jpg", "/mtb.JPG", "/open-water.jpg", "/wissel.jpg", "/trailrunning.jpg"],
+    sportSrc: ["/looptechniek.jpg", "/mtb.JPG", "/zwemmen-4.HEIC", "/wissel.jpg", "/trailrunning.jpg"],
     locations: ["Op afstand (digitaal)", "Online coaching gesprekken"],
     SEODescription: "Trainingsschema’s in Ekeren, Berchem, Antwerpen & Merksem: persoonlijke coaching met digitale opvolging en online gesprekken.",
     keywords:

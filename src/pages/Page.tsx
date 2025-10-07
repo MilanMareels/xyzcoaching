@@ -7,6 +7,7 @@ import ScrollToTopButton from "../components/ScrollToTopButton";
 import ServiceSection from "../components/ServiceSection";
 import SEO from "../components/SEO/SEO";
 import { SEOContent } from "../data/SEO/SEO";
+import Reviews from "../components/Reviews";
 
 export default function Page() {
   const [cookies] = useCookies(["cookieContent"]);
@@ -16,6 +17,7 @@ export default function Page() {
       <Header />
       <ServiceSection />
       <AboutUsSection />
+      <Reviews />
       <ContactForm />
       <ScrollToTopButton />
       {!cookies.cookieContent && <CookieConsent />}

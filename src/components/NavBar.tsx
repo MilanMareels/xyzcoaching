@@ -1,5 +1,4 @@
-import { Button, CustomFlowbiteTheme, Navbar } from "flowbite-react";
-import { PopupButton } from "react-calendly";
+import { CustomFlowbiteTheme, Navbar } from "flowbite-react";
 import CalandyButton from "./ui/CalandyButton";
 
 export default function NavBarSection() {
