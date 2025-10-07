@@ -12,7 +12,8 @@ export default function CookieConsent() {
   };
 
   return (
-    <div className="flex justify-between items-center w-full fixed bottom-0 bg-white p-5">
+    <div className="flex justify-between items-center w-full fixed bottom-0 bg-white p-5 z-50">
+      {/* z-50 zorgt dat de cookie banner boven alles komt */}
       <p className="w-[70%]">
         Wij gebruiken cookies om uw gebruikerservaring te verbeteren. Als u akkoord gaat met ons gebruik van cookies.{" "}
         <Link to={"/privacy"} className="underline">
