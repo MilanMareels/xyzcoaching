@@ -59,18 +59,18 @@ export default function AboutUsSection() {
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <div className="h-48 bg-gray-200 rounded-lg overflow-hidden">
-                <img src="/about-4.jpg" alt="Coach zwemtraining" loading="lazy" className="w-full h-full object-cover object-top" />
+                <img src="/about-4.webp" alt="Coach zwemtraining" loading="lazy" className="w-full h-full object-cover object-top" />
               </div>
               <div className="h-46 bg-gray-200 rounded-lg overflow-hidden">
-                <img src="/about-3.jpg" alt="Coach Yeray Luxem" loading="lazy" className="w-full h-full object-cover object-top" />
+                <img src="/about-3.webp" alt="Coach Yeray Luxem" loading="lazy" className="w-full h-full object-cover object-top" />
               </div>
             </div>
             <div className="space-y-4 pt-8">
               <div className="h-46 bg-gray-200 rounded-lg overflow-hidden">
-                <img src="/about-2.JPG" alt="Hardloopwedstrijd Yeray Luxem" loading="lazy" className="w-full h-full object-cover object-top" />
+                <img src="/about-2.webp" alt="Hardloopwedstrijd Yeray Luxem" loading="lazy" className="w-full h-full object-cover object-top" />
               </div>
               <div className="h-48 bg-gray-200 rounded-lg overflow-hidden">
-                <img src="/about-1.jpg" alt="Hardlooptraining Yeray Luxem" loading="lazy" className="w-full h-full object-cover object-top" />
+                <img src="/about-1.webp" alt="Hardlooptraining Yeray Luxem" loading="lazy" className="w-full h-full object-cover object-top" />
               </div>
             </div>
           </div>

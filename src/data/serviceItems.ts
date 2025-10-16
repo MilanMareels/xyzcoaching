@@ -4,8 +4,8 @@ export const serviceItems = [
     name: "personal-coaching",
     title: "Personal Coaching",
     titleSEO: "Personal Coaching in Ekeren, Berchem, Antwerpen & Merksem",
-    headerImage: "/about-1.jpg",
-    banner: "/c-4.jpg",
+    headerImage: "/persenal-training-banner.webp",
+    banner: "/about-4.webp",
     typeTitle: "Coaching Types",
     typeDescription: "Ontdek welk type coaching het beste bij jou past.",
     description:
@@ -96,7 +96,7 @@ export const serviceItems = [
       },
     ],
     sports: ["Zwemmen", "Open-Water Zwemmen", "Zwemtechniek Verfijning", "Mountainbike (MTB)", "Trailrunning", "Looptechniek", "Wisseltrainingen (Transitions)"],
-    sportSrc: ["/zwemmen-2.jpg", "/zwemmen-4.HEIC", "/zwembad.jpg", "/mtb.JPG", "/trailrunning.jpg", "/looptechniek.jpg", "/wissel.jpg"],
+    sportSrc: ["/zwemmen-2.webp", "/zwemmen-4.webp", "/zwembad.webp", "/mtb.webp", "/trailrunning.webp", "/looptechniek.webp", "/wissel.webp"],
     SEODescription: "Personal coaching in Ekeren, Berchem, Antwerpen & Merksem: zwemtraining, MTB, trailrunning, looptechniek en triatlon voor elk niveau.",
     keywords:
       "personal coaching Ekeren, personal coaching Berchem, personal coaching Antwerpen, personal coaching Merksem, zwemtraining Ekeren, zwemtraining Berchem, zwemtraining Antwerpen, zwemtraining Merksem, mountainbike coaching Ekeren, mountainbike coaching Berchem, mountainbike coaching Antwerpen, mountainbike coaching Merksem, trailrunning Ekeren, trailrunning Berchem, trailrunning Antwerpen, trailrunning Merksem, looptechniek Ekeren, looptechniek Berchem, looptechniek Antwerpen, looptechniek Merksem, triatlon coaching Ekeren, triatlon coaching Berchem, triatlon coaching Antwerpen, triatlon coaching Merksem",
@@ -106,8 +106,8 @@ export const serviceItems = [
     name: "persoonlijke-trainingsschema",
     title: "Persoonlijke Trainingsschema’s",
     titleSEO: "Persoonlijke Trainingsschema’s in Ekeren, Berchem, Antwerpen & Merksem",
-    headerImage: "/training-schema-2.jpg",
-    banner: "/training-schema-1.jpg",
+    headerImage: "/training-schema-2.webp",
+    banner: "/training-schema-1.webp",
     typeTitle: "Trainingsschema Types",
     typeDescription: "Ontdek welk type trainingsschema het beste bij jou past. Elk schema is volledig aangepast aan jouw specifieke doelen en behoeften.",
     description: "Individueel trainingsprogramma op maat. Altijd afgestemd op jouw doelen, niveau en beschikbare tijd.",
@@ -173,7 +173,7 @@ export const serviceItems = [
     ],
 
     sports: ["Lopen", "Fietsen", "Zwemmen", "Triatlon", "Trailrunning"],
-    sportSrc: ["/looptechniek.jpg", "/mtb.JPG", "/zwemmen-4.HEIC", "/wissel.jpg", "/trailrunning.jpg"],
+    sportSrc: ["/looptechniek.webp", "/mtb.webp", "/zwemmen-4.webp", "/wissel.webp", "/trailrunning.webp"],
     locations: ["Op afstand (digitaal)", "Online coaching gesprekken"],
     SEODescription: "Trainingsschema’s in Ekeren, Berchem, Antwerpen & Merksem: persoonlijke coaching met digitale opvolging en online gesprekken.",
     keywords:

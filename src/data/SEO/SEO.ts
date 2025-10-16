@@ -7,11 +7,11 @@ export const SEOContent = {
     canonicalUrl: "https://www.xyzcoaching.be/",
     ogTitle: "Xyzcoaching - Sportcoaching en personal training in Ekeren, Berchem, Antwerpen & Merksem",
     ogDescription: "Op zoek naar een coach in Ekeren, Berchem, Antwerpen of Merksem? Yeray Luxem biedt persoonlijke sportbegeleiding in triatlon, zwemmen, trailrunning, mountainbike en looptechniek.",
-    ogImage: "https://www.xyzcoaching.be/logo.jpg",
+    ogImage: "https://www.xyzcoaching.be/logo.webp",
     ogType: "website",
     twitterTitle: "Xyzcoaching - Coaching in Ekeren, Berchem, Antwerpen & Merksem",
     twitterDescription: "Sportcoaching en personal training in Ekeren, Berchem, Antwerpen en Merksem: triatlon, trailrunning, zwemmen, mountainbike en looptechniek door Yeray Luxem.",
-    twitterImage: "https://www.xyzcoaching.be/logo.jpg",
+    twitterImage: "https://www.xyzcoaching.be/logo.webp",
   },
   serviceDetails: {
     title: "Xyzcoaching - Sportcoaching & Personal Training Diensten in Ekeren, Berchem, Antwerpen & Merksem",
@@ -23,10 +23,10 @@ export const SEOContent = {
     ogTitle: "Xyzcoaching - Overzicht van coaching & trainingsdiensten in Ekeren, Berchem, Antwerpen & Merksem",
     ogDescription:
       "Bekijk alle coaching- en trainingsdiensten van Xyzcoaching in Ekeren, Berchem, Antwerpen en Merksem: triatlon, zwemmen, trailrunning, mountainbike en looptechniek door coach Yeray Luxem.",
-    ogImage: "https://www.xyzcoaching.be/logo.jpg",
+    ogImage: "https://www.xyzcoaching.be/logo.webp",
     ogType: "website",
     twitterTitle: "Xyzcoaching - Dienstenoverzicht sportcoaching in Ekeren, Berchem, Antwerpen & Merksem",
     twitterDescription: "Van triatlon tot trailrunning en zwemmen: ontdek alle coachingdiensten van Xyzcoaching door Yeray Luxem in Ekeren, Berchem, Antwerpen en Merksem.",
-    twitterImage: "https://www.xyzcoaching.be/logo.jpg",
+    twitterImage: "https://www.xyzcoaching.be/logo.webp",
   },
 };

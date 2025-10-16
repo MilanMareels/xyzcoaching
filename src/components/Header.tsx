@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import HeaderCalendyButton from "./ui/HeaderCalendyButton";
 
 export default function Header() {
-  const images = ["/c-1.jpg", "/c-2.jpg", "/c-3.jpg", "/c-4.jpg", "/c-5.JPG", "/c-6.JPG", "/c-7.JPG", "/c-8.JPG"];
+  const images = ["/c-1.webp", "/c-2.webp", "/c-3.webp", "/c-4.webp", "/c-5.webp", "/c-6.webp"];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
