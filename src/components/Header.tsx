@@ -33,7 +33,7 @@ export default function Header() {
       {/* Tekst en knoppen */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight text-center">Jou Persoonlijke</h1>
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight text-center">Jouw Persoonlijke</h1>
           <h1 className="text-5xl md:text-6xl font-bold text-[#DE5438] mb-6 leading-tight text-center">Sport Coach</h1>
           <p className="text-xl text-gray-200 mb-8 leading-relaxed text-center">Zwemmen • Fietsen • Lopen - Professionele begeleiding voor alle niveaus</p>
           <HeaderCalendyButton />
