@@ -24,6 +24,7 @@ export default function FooterSection() {
                 <Footer.Link href="https://scott-benelux.com/">Scott Benelux</Footer.Link>
                 <Footer.Link href="https://www.atriac.be/">ATRIAC</Footer.Link>
                 <Footer.Link href="https://6dsportsnutrition.com/">6Dsports Nutrition</Footer.Link>
+                <Footer.Link href="https://www.wolftrack.be">Wolftrack</Footer.Link>
               </Footer.LinkGroup>
             </div>
 
